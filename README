@@ -1,0 +1,8 @@
+This script is to audit a list of Windows computers for services that are not running under a built-in account.
+
+The list of computers should be in a plain-text file that is formatted one computername per line.  Provide the file for the CONST "INPUT_FILE_NAME"
+
+TODO:
+- set it up so that arguments can be provided, but look in the current directory for a default filename
+- output the file that is being used (and whether it is because of the default or argument
+- alert if no arg was provided and the default file was not found.
